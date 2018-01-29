@@ -4,6 +4,5 @@ namespace Xamarinday2018.Azure
 {
     public class XamarinDayHub : Hub
     {
-
     }
 }

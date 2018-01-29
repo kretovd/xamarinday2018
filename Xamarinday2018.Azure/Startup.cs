@@ -11,7 +11,7 @@ namespace Xamarinday2018.Azure
 {
     public class Startup
     {
-        private static string _color = "fff";
+        private static readonly string[] Colors = { "fff", "000", "f00" };
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
@@ -29,12 +29,13 @@ namespace Xamarinday2018.Azure
                 routes.MapHub<XamarinDayHub>("hubs");
             });
 
-
+            var hub = serviceProvider.GetService<IHubContext<XamarinDayHub>>();
             void TimerCallback(object x)
             {
-                var hub = serviceProvider.GetService<IHubContext<XamarinDayHub>>();
-                hub.Clients.All.InvokeAsync("Color", _color);
-                _color = _color == "fff" ? "000" : "fff";
+                var random = new Random();
+                int index = random.Next(Colors.Length);
+                var color = Colors[index];
+                hub.Clients.All.InvokeAsync("Color", color);
             }
 
             var timer = new Timer(TimerCallback);
@@ -47,7 +48,7 @@ namespace Xamarinday2018.Azure
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello XamarinDay!");
             });
         }
     }

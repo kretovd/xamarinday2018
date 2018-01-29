@@ -26,7 +26,7 @@ namespace Xamarinday2018.Azure
             app.UseStaticFiles();
             app.UseSignalR(routes =>
             {
-                routes.MapHub<XamarinDayHub>("hubs");
+                routes.MapHub<XamarinDayHub>("hub");
             });
 
             var hub = serviceProvider.GetService<IHubContext<XamarinDayHub>>();

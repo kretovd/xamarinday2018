@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{9858FDA6-0E80-407D-95A1-B888757420AD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinDay2018/Client.cs">
+    <Files>
+      <File FileName="XamarinDay2018/Client.cs" Line="30" Column="10" />
+      <File FileName="Droid/MainActivity.cs" Line="27" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinDay2018.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B4A9FB1-2560-43DE-8C32-F813EA72B29C">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XamarinDay2018.iOS>
+  <MonoDevelop.Ide.ItemProperties.XamarinDay2018.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.bf28ca31" />
+</Properties>

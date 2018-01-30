@@ -30,7 +30,7 @@ namespace Xamarin2018.SignalRTest
 
         public static async Task StartConnectionAsync()
         {
-            _connection = new HubConnectionBuilder()
+            _connection =  new HubConnectionBuilder()
                 .WithUrl("https://xamarinday2018azure.azurewebsites.net/hub")
                 .WithTransport(TransportType.LongPolling)
                 .WithConsoleLogger()

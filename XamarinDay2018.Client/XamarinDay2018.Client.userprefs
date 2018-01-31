@@ -1,10 +1,5 @@
-﻿<Properties StartupConfiguration="{9858FDA6-0E80-407D-95A1-B888757420AD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinDay2018/Client.cs">
-    <Files>
-      <File FileName="XamarinDay2018/Client.cs" Line="30" Column="10" />
-      <File FileName="Droid/MainActivity.cs" Line="27" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{9858FDA6-0E80-407D-95A1-B888757420AD}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

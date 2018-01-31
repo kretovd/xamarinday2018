@@ -22,7 +22,7 @@ namespace XamarinDay2018.iOS
                 }
                 catch (Exception ex)
                 {
-                    System.Diagnostics.Debug.WriteLine(ex.Message);
+                    System.Diagnostics.Debug.WriteLine($"{ex.Message}\n{ex.StackTrace}");
                 }
             });
         }

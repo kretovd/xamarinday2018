@@ -42,11 +42,86 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Sockets.Common.Http">
+      <HintPath>..\packages\Microsoft.AspNetCore.Sockets.Common.Http.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.Sockets.Common.Http.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Client">
-      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.2\lib\netstandard1.3\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="MsgPack">
+      <HintPath>..\packages\MsgPack.Cli.0.9.0-beta2\lib\MonoAndroid10\MsgPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.4.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Console">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Console.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\packages\System.Memory.4.4.0-preview2-25405-01\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers.Primitives">
+      <HintPath>..\packages\System.Buffers.Primitives.0.1.0-alpha-001\lib\netstandard1.1\System.Buffers.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Binary">
+      <HintPath>..\packages\System.Binary.0.1.0-alpha-001\lib\netstandard1.1\System.Binary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Sequences">
+      <HintPath>..\packages\System.Collections.Sequences.0.1.0-alpha-001\lib\netstandard1.1\System.Collections.Sequences.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>..\packages\System.IO.Pipelines.0.1.0-alpha-001\lib\netstandard1.1\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines.Extensions">
+      <HintPath>..\packages\System.IO.Pipelines.Extensions.0.1.0-alpha-001\lib\netstandard1.3\System.IO.Pipelines.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Channels">
+      <HintPath>..\packages\System.Threading.Tasks.Channels.0.1.0-alpha-001\lib\netstandard1.3\System.Threading.Tasks.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Sockets.Abstractions">
+      <HintPath>..\packages\Microsoft.AspNetCore.Sockets.Abstractions.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.Sockets.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Common.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Client.Core">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Client.Core.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Sockets.Client.Http">
+      <HintPath>..\packages\Microsoft.AspNetCore.Sockets.Client.Http.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.Sockets.Client.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Client">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Client.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -70,8 +145,8 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinDay2018\XamarinDay2018.Core.csproj">
-      <Project>{4F1D7592-DC63-4B41-BED2-BC0FAFFA5B75}</Project>
+    <ProjectReference Include="..\Core\XamarinDay2018.Core.csproj">
+      <Project>{EAC42622-AF49-4EFA-BB37-E74D63B71619}</Project>
       <Name>XamarinDay2018.Core</Name>
     </ProjectReference>
   </ItemGroup>

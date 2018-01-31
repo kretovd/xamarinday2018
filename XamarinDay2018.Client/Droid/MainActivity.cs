@@ -35,7 +35,7 @@ namespace XamarinDay2018.Droid
 
         void ChangeColorEventHandler(object sender, string e)
         {
-            RunOnUiThread(() => View.SetBackgroundColor(Color.ParseColor(e)));
+            RunOnUiThread(() => View.SetBackgroundColor(Color.ParseColor($"#{e}")));
         }
 
         protected override void OnCreate(Bundle savedInstanceState)

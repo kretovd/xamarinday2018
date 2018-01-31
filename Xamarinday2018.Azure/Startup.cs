@@ -11,7 +11,7 @@ namespace Xamarinday2018.Azure
 {
     public class Startup
     {
-        private static readonly string[] Colors = { "fff", "000", "f00" };
+        private static readonly string[] Colors = { "ffffff", "000000", "ff0000" };
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940

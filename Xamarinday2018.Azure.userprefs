@@ -1,28 +1,5 @@
 ﻿<Properties StartupConfiguration="{BBB58F0D-3276-45BF-AA52-2BEF57F44344}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin2018.SignalRTest/Program.cs">
-    <Files>
-      <File FileName="Xamarin2018.SignalRTest/Program.cs" Line="25" Column="16" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Xamarinday2018.Azure" expanded="True">
-            <Node name="Xamarin2018.SignalRTest" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Microsoft.AspNetCore.SignalR.Client" expanded="True" selected="True" />
-                </Node>
-                <Node name="SdkDependencies" expanded="True">
-                  <Node name="Microsoft.NETCore.App" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Xamarinday2018.Azure" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.Xamarin2018.SignalRTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
